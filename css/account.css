@@ -1,0 +1,42 @@
+label{
+font-weight: bold;
+width:90px;
+text-align:right;
+margin-right:5px;
+float:left;
+}
+input{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+  html {
+    background-color: #299bff;
+    color: #ffffff;
+}
+
+#header {
+    background-color: #f57e16;
+    line-height: 2px;
+}
+
+fieldset.login {
+    width: 290px;
+
+}
+
+input.textEntry {
+    color:  #000000;
+    background-color: #ffffff;
+    border-color: #ed8721;
+}
+input.textEntry {
+    border-style: double;
+    border-color: #f2981b;
+}
+
+input.passwordEntry {
+    border-style: double;
+    border-color: #f27900;
+}

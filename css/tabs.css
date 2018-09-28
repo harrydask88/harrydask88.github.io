@@ -1,0 +1,279 @@
+/* IE6 css fixer v0.95: Wed, 30 Apr 2014 19:01:17 +0200 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add zoom:1 to pos:relative elements */
+ul.mctabs li a,
+div.panel-container {zoom:1;}
+
+/* add zoom:1; display:inline; to inline-block elements */
+ul.mctabs li a {zoom:1; display:inline;}
+
+/* add overflow:visible to (submit) buttons */
+ input, button {overflow:visible;}
+
+
+ul.mctabs
+{
+    height:30px; /* height #1 */
+    text-align:left; /*set to left, center, or right to align the tabs as desired*/    
+    font-size:0;
+    margin:0;padding:0;
+    list-style-type:none;
+}
+        
+ul.mctabs li
+{
+    display:inline;
+    margin:0;padding:0;
+    margin-right:3px; /*distance between tabs*/
+}
+        
+ul.mctabs li a
+{
+    padding:0 16px; /* edit 16px for different tab width */
+    display:inline-block;    
+    font:normal 12px Verdana;
+    line-height:30px;/* height #1 */
+    text-decoration: none;
+    color:#222;
+    border:1px solid #CCC; /*This color can be different from color #2 */
+    border-bottom:none;
+    background:#F0F0F0 url(tabbg.gif) 0 0 repeat-x;
+    outline:none;
+    border-radius:3px 3px 0 0;
+    position:relative;
+}
+        
+ul.mctabs li a:link, ul.mctabs li a:visited
+{
+    color:#222;
+}
+        
+ul.mctabs li a:hover
+{
+    border-color: #DDD; /*color #1*/
+    background:#F0F0F0 url(tabbg.gif) 0 -36px repeat-x;
+}
+  
+/*selected tab style */
+ul.mctabs li.selected a
+{
+    color:#000;
+    font-weight:normal;
+    border-color:#DDD; /*color #1*/
+    background:white; /*color #2*/
+    z-index:3;
+}   
+        
+/*selected tab style on hover */
+ul.mctabs li.selected a:hover
+{
+    text-decoration:none;
+}
+
+/* container of content panels */
+div.panel-container
+{
+    border:1px solid #DDD; /*color #1*/ 
+    border-radius:0 4px 4px 4px;
+    background-color:white; /*color #2*/
+    position:relative;    
+    padding:0px; margin:0px;
+}
+
+/* content panel */       
+div.panel-container > div
+{
+    padding:30px 26px;
+    
+    /* The two settings below should not be changed. */
+    display: block;
+    margin:0px;
+}
+#container_demo {
+    background-color: #299bff;
+}
+
+a.btn.btn-default.btn-lg {
+    background-color: #fa6c0d;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+div.codrops-top {
+    background-color: #ffa305;
+}
+
+div.codrops-top a {
+    border-style: solid;
+    font-size: 16px;
+}
+
+div.container {
+    background-color: #299bff;
+}
+
+div.vert-text {
+    background-color: #299bff;
+    color: #ffffff;
+}
+
+div.vert-text h1 {
+    color: #ffffff;
+}
+
+div.vert-text h3 em {
+    font-style: normal;
+}
+
+  html {
+    background-color: #94daff;
+    border-style: solid;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#Byzantine Greek {
+    border-style: dotted;
+}
+
+#demopage h1 {
+    font-weight: bold;
+    text-transform: none;
+}
+
+#view1 {
+    background-color: #94daff;
+    border-color: #c2b3c2;
+    color: #ffffff;
+}
+
+#view1 h2 {
+    text-decoration: underline;
+}
+
+#view1 li {
+    color: #000000;
+}
+
+#view1 p {
+    color: #000000;
+}
+
+#view2 {
+    background-color: #94daff;
+    border-style: none;
+}
+
+#view2 h2 {
+    color: #fffcff;
+    text-decoration: underline;
+}
+
+#view3 {
+    background-color: #94daff;
+}
+
+#view4 {
+    background-color: #94daff;
+}
+
+#view4 h2 {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#view5 {
+    background-color: #94daff;
+}
+
+#view6 {
+    background-color: #94daff;
+}
+
+#view7 {
+    background-color: #94daff;
+}
+
+#view8 {
+    background-color: #9ce0ff;
+}
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+div.boxed {
+    background-color: #94daff;
+}
+
+li.selected a {
+    background-color: #97bbdb;
+}
+
+ul.mctabs li a {
+    background-color: #94daff;
+}
+
+#view8 {
+    background-color: #9ce0ff;
+}
+
+p a strong {
+    font-family: Palatino;
+    border-style: inset;
+    background-color: #ed8e00;
+}
+
+#logger a {
+    font-family: Palatino;
+    font-weight: bold;
+    border-style: inset;
+    background-color: #ed8e00;
+}
+
+#view8 {
+    background-color: #9ce0ff;
+}
+
+p a strong {
+    font-family: Palatino;
+    border-style: inset;
+    background-color: #ed8e00;
+}
+
+#logger a {
+    font-family: Palatino;
+    font-weight: bold;
+    border-style: inset;
+    background-color: #ed8e00;
+}
+
+#view3 h2 {
+    color: #ffffff;
+}
+#view5 h2 {
+    color: #ffffff;
+}
+
+#view6 h2 {
+    color: #ffffff;
+}
+
+#view6 p strong {
+    color: #ffffff;
+}
+
+#view7 h2 {
+    color: #ffffff;
+}
+
+#view8 h2 {
+    color: #ffffff;
+}
+#demopage h1 {
+    color: #ff7700;
+}
+
+
+/* loading image before ajax content is retrieved. Only applicable when Ajax is used.*/
+div.ajaxLoading {background:transparent url(loading.gif) no-repeat center center; height:150px; font-size:0;padding:0; margin:0; }

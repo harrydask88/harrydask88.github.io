@@ -1,0 +1,46 @@
+  #header{margin:auto;width:90%;margin-top:1%}
+  #nav1{float:left;margin-left:50px;}
+  #nav a{text-decoration:none;float:left;margin-right:10px;font-size:20px;color:DarkBlue}
+  #nav input{;color:DarkBlue}
+  #nav2 a{text-decoration:none;float:left;margin-right:10px;font-size:20px;color:DarkBlue}
+  #submit {border:1px solid black;cursor:pointer;background-color:white}
+  #register label{float:left;width:90px;text-align:right;}
+  #maincontainer{width:50%;margin:auto;padding:5px;text-align:justify;}
+  @import url(http://fonts.googleapis.com/css?family=Lato);
+
+#header {
+    background-color: #299bff;
+}
+
+ html body {
+    background-color: #299bff;
+}
+
+#register fieldset legend {
+    color: #ffffff;
+}
+
+#maincontainer p {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 19px;
+}
+
+span a strong {
+    color: #fa8117;
+    font-size: 19px;
+}
+  span a strong {
+    color: #ed7c03;
+    background-color: #1f03f5;
+}
+
+div.codrops-top a strong {
+    color: #ed7c03;
+    font-size: 18px;
+    font-family: Lucida Grande;
+    text-decoration: none;
+    border-style: inset;
+    background-color: #1f03f5;
+}
+  

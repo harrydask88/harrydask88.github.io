@@ -1,0 +1,13 @@
+ #header{width:90%;margin:auto;border:1px solid red; text-align:center;background-color:#39a39f }
+ #main{width:90%;margin-top:1%;margin:auto;}
+ #footer{width:90%;margin:auto;margin-top:5%;}
+ #left{margin-top:1%;float:left;width:50%}
+ #right{float:right;margin-top:1%; width:45%;text-align:center; }
+ .myBanner{text-shadow:3px  5px  2px  #000000;color:#FFF}
+ #leftAbout {float:left;margin-top:6%; margin-left:2%; width: 20%;}
+ #rightAbout {float:right;margin-top:2%;width:60%;margin-right:2%;overflow: auto;height:400px;}
+   .nurgle {display:block;margin-top:10px;border-left:1px solid red;border-bottom:1px solid red;
+           border-top:1px solid blue;border-right:1px solid blue;
+  }
+
+ 

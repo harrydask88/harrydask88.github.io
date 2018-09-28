@@ -1,0 +1,86 @@
+
+label{
+float:left;
+width: 150px;
+font-weight: bold;
+text-align:right;
+margin-right:10px;
+}
+#appright{float:left;margin-top:2%;margin-left:10px;display:none;border:2px solid red;text-align:center}
+
+
+#demopage h1 {
+    color: #ff7700;
+}
+
+#logger a {
+    background-color: #ed8e00;
+    border-style: inset;
+    font-family: Palatino;
+    font-weight: bold;
+}
+
+#view3 h2 {
+    color: #ffffff;
+}
+
+#view5 h2 {
+    color: #ffffff;
+}
+
+#view6 h2 {
+    color: #ffffff;
+}
+
+#view6 p strong {
+    color: #ffffff;
+}
+
+#view7 h2 {
+    color: #ffffff;
+}
+
+#view8 {
+    background-color: #9ce0ff;
+}
+
+#view8 h2 {
+    color: #ffffff;
+}
+
+p a strong {
+    background-color: #ed8e00;
+    border-style: inset;
+    font-family: Palatino;
+}
+
+ html body {
+    background-color: #329dfa;
+    color: #ffffff;
+}
+
+#username {
+    color: #000000;
+}
+
+#header {
+    background-color: #ffa114;
+}
+
+ul li a {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#email {
+    color: #000000;
+}
+
+#lname {
+    color: #000000;
+}
+
+#fname {
+    color: #000000;
+}
+

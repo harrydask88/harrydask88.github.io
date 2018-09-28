@@ -1,0 +1,8 @@
+  #tl{float:left;margin-left:5%; width:30%;border:1px solid red}
+  #tr{float:right;margin-right:5%; width:30%;border:1px solid blue}
+  #m{float:left;margin-top:3px;width:30%;margin-left:35%;border:1px solid green}
+  #bl{float:left;margin-top:3px;margin-left:5%; width:30%;border:1px solid brown}
+  #br{float:right;margin-top:3px;margin-right:5%; width:30%;border:1px solid cyan}
+  #hal{width:90px;margin-left:auto;margin-right:auto;}
+  #malcolm{width:99px;margin-left:auto;margin-right:auto;}
+  #dewey{width:259px;margin-left:auto;margin-right:auto;}
